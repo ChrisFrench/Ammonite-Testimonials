@@ -34,8 +34,8 @@ class TestimonialsControllerTestimonials extends TestimonialsController
     	$ns = $this->getNamespace();
 
     	$state['filter_name']   = $app->getUserStateFromRequest($ns.'name', 'filter_name', '', '');
-		$state['filter_id_from']   = $app->getUserStateFromRequest($ns.'name', 'filter_id_from', '', '');
-		$state['filter_id_to']   = $app->getUserStateFromRequest($ns.'name', 'filter_id_to', '', '');
+		$state['filter_id_from']   = $app->getUserStateFromRequest($ns.'id_from', 'filter_id_from', '', '');
+		$state['filter_id_to']   = $app->getUserStateFromRequest($ns.'id_to', 'filter_id_to', '', '');
 		$state['filter_user_id'] 	= $app->getUserStateFromRequest($ns.'user_id', 'filter_user_id', '', '');
 		$state['filter_user_name'] 	= $app->getUserStateFromRequest($ns.'user_name', 'filter_user_name', '', '');
 		$state['filter_category_id'] 	= $app->getUserStateFromRequest($ns.'category_id', 'filter_category_id', '', '');
