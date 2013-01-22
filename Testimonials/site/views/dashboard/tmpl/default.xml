@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="TESTIMONIALS DASHBOARD DEFAULT LAYOUT">
+		<message>
+			<![CDATA[TESTIMONIALS DASHBOARD DEFAULT LAYOUT DESC]]>
+		</message>
+	</layout>
+	<state>
+		<name>TESTIMONIALS DASHBOARD DEFAULT LAYOUT</name>
+		<description>TESTIMONIALS DASHBOARD DEFAULT LAYOUT DESC</description>
+        <!--
+        <url addpath="/administrator/components/com_testimonials/elements">
+            <param name="filter_group" type="testimonialsgroup" section="com_testimonials" default="" label="Select Group" description="A Tag Group" />
+            <param name="task" type="hidden" section="com_testimonials" default="view" />
+        </url>
+        -->
+	</state>
+</metadata>

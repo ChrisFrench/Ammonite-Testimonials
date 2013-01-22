@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<menu>
+   <link>
+       <name>Testimonials</name>
+       <url>index.php?option=com_testimonials&#38;view=testimonials</url>
+   </link>
+   <link>
+       <name>Configuration</name>
+       <url>index.php?option=com_testimonials&#38;view=config</url>
+   </link>
+</menu>
